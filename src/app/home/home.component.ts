@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  tempString='Directives use demo'
+  highlightColor=''
+  thirdInput='Selected color : '
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  changeHighLightColor(color){
+    this.highlightColor = color;
+    this.thirdInput += color;
+
   }
 
 }

@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { HighlightDirective } from './my-directives/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
     RegisterUserComponent,
     HomeComponent,
     PageNotFoundComponent,
-    NavBarComponent
+    NavBarComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

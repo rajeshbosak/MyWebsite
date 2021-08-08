@@ -1,5 +1,27 @@
 <p>home works!</p>
 
+VIBGYOR
+
+
+<div>
+    <p>Choose a highlight color</p>
+    <input type="radio" name="colors" (click)="changeHighLightColor('green')"> Green
+    <input type="radio" name="colors" (click)="changeHighLightColor('pink')"> Pink
+    <input type="radio" name="colors" (click)="changeHighLightColor('yellow')"> Yellow
+    <input type="radio" name="colors" (click)="changeHighLightColor('violet')"> Violet
+</div>
+
+
+<p [appHighlight]="highlightColor"
+    defaultColor="brown"
+    [thirdInput]="thirdInput">
+    This is an interpolation string : 
+    {{ tempString  }}
+</p>
+
+
+<br>
+
 <a routerLink="/register"> <button> Register </button> </a>
 
 <br> 
