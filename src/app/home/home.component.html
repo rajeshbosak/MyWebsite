@@ -11,7 +11,8 @@ VIBGYOR
     <input type="radio" name="colors" (click)="changeHighLightColor('violet')"> Violet
 </div>
 
-
+<!-- ngNonBindable -->
+<!-- interpolation does not work in ngNonBindable  -->
 <p [appHighlight]="highlightColor"
     defaultColor="brown"
     [thirdInput]="thirdInput">
