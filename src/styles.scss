@@ -1,2 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  // height: 100%;
+  flex-direction: column;
+}
+
+
+.footer{
+  bottom: 0;
+  width: 99%;
+
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+}

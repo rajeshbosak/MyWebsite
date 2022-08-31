@@ -14,6 +14,7 @@ import { ChartCodeComponent } from './chart-code/chart-code.component';
 import { HomeModule } from './home/home.module';
 import { TestCompoComponent } from './test-compo/test-compo.component';
 import { SeoSettingComponent } from './settings-seo/seo-setting/seo-setting.component';
+import { FooterSectionComponent } from './footer-section/footer-section.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { SeoSettingComponent } from './settings-seo/seo-setting/seo-setting.comp
     HighlightDirective,
     ChartCodeComponent,
     TestCompoComponent,
-    SeoSettingComponent
+    SeoSettingComponent,
+    FooterSectionComponent
   ],
   imports: [
     BrowserModule,
@@ -35,6 +37,6 @@ import { SeoSettingComponent } from './settings-seo/seo-setting/seo-setting.comp
     // HomeModule
   ],
   providers: [],
-  bootstrap: [AppComponent]  
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
