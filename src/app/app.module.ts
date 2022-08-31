@@ -10,6 +10,10 @@ import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HighlightDirective } from './my-directives/highlight.directive';
+import { ChartCodeComponent } from './chart-code/chart-code.component';
+import { HomeModule } from './home/home.module';
+import { TestCompoComponent } from './test-compo/test-compo.component';
+import { SeoSettingComponent } from './settings-seo/seo-setting/seo-setting.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +23,16 @@ import { HighlightDirective } from './my-directives/highlight.directive';
     HomeComponent,
     PageNotFoundComponent,
     NavBarComponent,
-    HighlightDirective
+    HighlightDirective,
+    ChartCodeComponent,
+    TestCompoComponent,
+    SeoSettingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    // HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]  

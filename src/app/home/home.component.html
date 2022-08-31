@@ -1,6 +1,6 @@
 <p>This is in test-branch</p>
 
-VIBGYOR
+<p> Angular Vesion : {{ angularVersion }}</p>
 
 
 <div>
@@ -16,7 +16,7 @@ VIBGYOR
 <p [appHighlight]="highlightColor"
     defaultColor="brown"
     [thirdInput]="thirdInput">
-    This is an interpolation string : 
+    This is an interpolation string :
     {{ tempString  }}
 </p>
 
@@ -25,6 +25,11 @@ VIBGYOR
 
 <a routerLink="/register"> <button> Register </button> </a>
 
-<br> 
+<br>
 
 <a routerLink="/login"> <button> Login </button></a>
+<br>
+
+<a routerLink="/charDemo">
+    <button> Chart Demo Component</button>
+</a>
