@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, VERSION } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -11,7 +11,11 @@ export class HomeComponent implements OnInit {
   highlightColor=''
   thirdInput='Selected color : '
 
-  constructor() { }
+  angularVersion:any;
+
+  constructor() { 
+    this.angularVersion = VERSION.full
+  }
 
   ngOnInit() {
   }
