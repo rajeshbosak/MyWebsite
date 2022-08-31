@@ -8,7 +8,7 @@
     "package": "cd dist/MyWebsite && npm pack",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "prod-build": "ng build --prod --base-href 'https://oasis63.github.io/MyWebsite/'",
+    "prod-build": "ng build --configuration production --base-href 'https://oasis63.github.io/MyWebsite/'",
     "prod-deploy": "ngh --dir dist/MyWebsite"
   },
   "private": true,
