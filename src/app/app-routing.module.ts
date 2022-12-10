@@ -20,7 +20,7 @@ const routes: Routes = [
   }
   ,
   {
-    path: 'charDemo',
+    path: 'chartDemo',
     component: ChartCodeComponent
   }
   ,
